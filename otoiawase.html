@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel=stylesheet href="CSS/main.css">
+        <link rel=stylesheet href="CSS/otoiawase.css">
+        <title>ぱっちわーかー</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body class="body">
+    <header class="header">
+        <img src="images/logo.jpg" alt="ロゴ" class="logo1">
+
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">トップページ</a></li>
+                <li><a href="#intro">ショップについて</a></li>
+                <li><a href="./news.html">お知らせ</a></li>
+                <li><a href="./shop.html>">オンラインショップ</a></li>
+                <li><a href="./otoiawase.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="question">
+    <h1>お問い合わせ</h1>
+
+        <form action="program.php" method="post">
+        <dl>    
+            <dt>お問い合わせの種類</dt>
+            <dd>
+                <label><input type="checkbox" name="category" value="お問い合わせ">お問い合わせ</label>
+                <label><input type="checkbox" name="category" value="不良品に関するお問い合わせ">不良品に関するお問い合わせ</label>
+                <label><input type="checkbox" name="category" value="新商品の提案">新商品の提案</label>
+            </dd>
+            
+            <dt>お名前<span class="must">※</span></dt>
+            <dd>
+                <input type="text" name="name" required placeholder="田中 太郎">
+            </dd>
+
+            <dt>フリガナ<span class="must">※</span></dt>
+            <dd>
+                <input type="text" name="kana" required placeholder="タナカ タロウ">
+            </dd>
+
+            <dt>メールアドレス<span class="must">※</span></dt>
+            <dd>
+                <input type="email" required placeholder="sample@test.com">
+            </dd>
+            
+            <dt>お問い合わせ・質問内容</dt>
+            <dd>
+                <textarea name="comment" cols="80" rows="10"></textarea>
+            </dd>
+        </dl>
+        </form>
+        <p class="submit"><input type="submit" name="submit" value="送信する"></p>
+    </section>
+
+    </body>
+
+</html>

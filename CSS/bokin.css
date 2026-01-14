@@ -1,0 +1,29 @@
+@charset "UTF-8" ;
+
+.bokin {
+    text-align: center;
+    background-image: url(../images/bokin-haikei.jpg);
+    background-size: cover;
+    width: auto;
+}
+
+.bokin-explain {
+    margin: 50px;
+    line-height: 2.5;
+}
+
+.bokin-kochira {
+    margin: 80px 0px;
+}
+
+.bokin-kochira p {
+    font-size: 22px;
+}
+
+.bokin-btn {
+    width: 330px;
+}
+
+.bokin-btn:hover {
+    opacity: 0.6;
+}

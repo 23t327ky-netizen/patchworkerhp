@@ -1,0 +1,79 @@
+@charset "UTF-8" ;
+
+.shop-main {
+    
+    padding: 50px 0;
+}
+
+.logo-shoppage {
+    width: 300px;
+    height: auto;
+}
+
+.logo-shoppage-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.all-item {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 100px;
+}
+
+.shop-item1 {
+    width: 350px;
+    text-align: center;
+    margin-top: 100px;
+    padding-right: 100px;
+    border-right: #b6b6b6 1px solid;
+}
+
+
+
+.shop-item2 {
+    width: 350px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    
+}
+
+
+
+.kingaku {
+    font-size: 18px;
+}
+
+.hyoushi-shop {
+    width: 250px;
+    height: 250px;
+}
+
+.kounyuu  {
+    padding: 8px 8px;
+    background-color: rgb(246, 173, 173);
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/*背景柄*/
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.Polka_v2 {
+  background-image:  radial-gradient(#ffc107 2px, transparent 2px), radial-gradient(#ffc107 2px, #ffffff 2px);
+  background-size: 40px 40px;
+  background-position: 0 0,20px 20px;
+}

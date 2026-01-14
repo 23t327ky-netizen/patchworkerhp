@@ -1,0 +1,300 @@
+@charset "UTF-8" ;
+/*全体設定*/
+.body {
+    font-family: Zen Maru Gothic;
+}
+
+
+/*ヘッダー*/
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo1 {
+    width: 120px;
+    height: 120px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 35px 5px;
+    display: flex;
+}
+
+.nav ul li {
+    display: block;
+    padding: 6px 20px;
+    border-right: 1px solid #a6a6a6;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover {
+    color: #ffcece;
+}
+
+/*トップ画面*/
+.top {
+    background-image: url(../images/haikei1.jpg);
+    background-size: cover;
+    width: auto;
+    height: 600px;
+    margin: 80px 0px;
+}
+
+.top h1 {
+    padding: 260px 110px;
+}
+
+/*ブランド紹介*/
+#intro {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    margin: 100px 0px;
+    background-image: url(../images/bookandpen.png);
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(247, 243, 225);
+}
+
+#intro h2 {
+    font-size: 30px;
+}
+
+.explain {
+    margin: 200px 0px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+/*お知らせ*/
+#news {
+    margin: 80px 0px;
+}
+
+.logo2 {
+    width: 250px;
+    height: 120px;
+    margin: 0px 50px;
+}
+
+.news-list {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.news-list li {
+    width: 800px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: #a6a6a6 1px solid; 
+}
+
+.news-list dt {
+    float: left;
+    clear: left;
+    margin-right: 10px;
+}
+
+.news-list dl {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.news-naiyou {
+    text-decoration: none;
+    color: black;
+}
+
+.news-naiyou:hover {
+    color: #ffcece;
+}
+
+
+.more-btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.more-btn:hover {
+    background-color: #ffdbdb;
+}
+
+.more-btn-wrapper {
+    text-align: center;
+    margin: 70px 0px;
+}
+
+/*オンラインショップ*/
+#onlineshop {
+    width: auto;
+    height: 900px;
+    background-image: url(../images/ranking-back.png);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo3 {
+    width: 280px;
+    height: 120px;
+    margin: 180px 0px 0px 70px;
+}
+
+#onlineshop p {
+    margin: 20px 0px 0px 120px;
+}
+
+.ranking {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.hyoushi-image {
+    width: 200px;
+    height: 200px;
+}
+
+.ranking-naiyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+
+.ranking-naiyou h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.namber1 {
+    color: rgb(214, 192, 84);
+}
+
+.namber2 {
+    color: #8e8e8e;
+}
+
+.namber3 {
+    color: rgb(206, 161, 103);
+}
+
+.more-btn2 {
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: block;
+    width: 150px;
+
+}
+
+.more-btn2-wrapper {
+    margin: auto auto 100px auto;
+    text-align: center;
+}
+
+.more-btn2:hover {
+    background-color: #fffcc5;
+}
+
+/*ボトム*/
+
+.logo1-bottom {
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.otoiawase {
+    padding: 30px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    text-align: center;
+    width: 200px;
+    margin: 20px 80px;
+
+}
+
+.bottom {
+    width: 100%;
+    height: 300px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    padding: 30px 80px 0px 30px;
+    margin: 0;
+}
+
+
+
+
+.otoiawase-naiyou {
+    text-decoration: none;
+    color: black;
+}
+
+.otoiawase:hover {
+    background-color: #ffdbdb;
+}
+
+.bottom-list {
+    margin-top: 60px;
+     margin-right: 120px;
+    margin-left: auto;
+}
+
+.bottom-list ul {
+    width: 250px;
+}
+
+.bottom-list ul li {
+    padding-bottom: 17px;
+    padding-top: 17px;
+    border-bottom: 1px solid #a6a6a6;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* フッター */
+.footer {
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/*募金ページ用ボタン*/
+
+.bokin-btn-mainpage {
+    width:  150px;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+}
+
+.bokin-btn-mainpage:hover {
+    opacity: 0.7;
+    width: 180px;
+}

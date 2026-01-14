@@ -1,0 +1,12 @@
+@charset "UTF-8" ;
+
+.title-news {
+    width: 250px;
+    height: auto;
+    margin: 30px;
+}
+
+.title-news-wrapper {
+    display: flex;
+    justify-content: center;
+}
