@@ -3,136 +3,143 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel=stylesheet href="CSS/main.css">
+        <title>ぱっちわーかー</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
-        <title>EaCherry</title>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
 
 
     <body class="body">
-<!--ヘッダー-->
-<header>
-    <div class="header">
-    <img src="images/logo_color.png" alt="ロゴ" id="logo-main">
-    <nav id="nav">
-        <ul>
-            <li><a href="index.html">トップメニュー</a></li>
-            <li><a href="charactor.html">キャラクター紹介</a></li>
-            <li><a href="news.html">お知らせ</a></li>
-            <li><a href="shop.html">グッズ</a></li>
-            <li><a href="otoiawase.html">お問い合わせ</a></li>
-        </ul>
-    </nav>
-    </div>
-</header>
+    <header class="header">
+        <img src="images/logo.jpg" alt="ロゴ" class="logo1">
 
-    <!--メインビジュアル-->
-    <section id="top">
-        <img src="images/mainvisual2.png" alt="メインビジュアル" class="mainvisual">
-    </section>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="#intro">ショップについて</a></li>
+                <li><a href="news.html">お知らせ</a></li>
+                <li><a href="shop.html">オンラインショップ</a></li>
+                <li><a href="otoiawase.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
 
-    <!--キャラクター紹介-->
-    <section id="charactor-intro">
-        <div>
-           <h1>この子たちはだれ...?</h1>
-            <p>性格が正反対な、2粒のさくらんぼです。<br>
-            がんばる気持ちと、ちょっと休みたい気持ち、どちらも大切な気持ちで、<br>
-            メリハリをつけることが必要だということをテーマにしています。
-            </p>
-            <div class="more-btn-wrapper"><a href="charactor.html" class="more-btn">キャラクターを見る →</a></div>
-            <video src="images/charactor_animation.mp4" controls class="video" poster="images/samnail.png"></video>
-        </div>
-     </section>
+    </header>
 
+        <section class="top">
+            <h1>絵本をひらく、やさしい世界ひろがる</h1>
+        </section>
 
-    <!--ニュース記事-->
+        <section id="intro">
+            <div class="explain">
+            <h2>絵本を読むことでつながっていく</h2>
+            <p>グリム童話を元にした絵本ブランドです。<br>
+        イラストは工房集さんに所属されているアーティストの方々の素材を使用しています。<br>
+        大人も子供も楽しめる絵本の世界を通じて、さまざまな人や場所と繋がることができます。<br>
+        あなたもぱっちわーくを通して、世界を広げてみませんか？</p>
+            </div>
+        </section>
+
+ <!--ニュース記事-->
     <section id="news">
-        <div class="news-title">
-            <img src="images/tapioka.png" alt="tapioka" class="tapioka">
-            <h2>お知らせ</h2>
-        </div>
+        <img src="images/news-logo.png" alt="ロゴ" class="logo2">
         <ul class="news-list">
             <li class="news-item">
-                <a href="news_1.html" class="news-naiyou">
+                <a href="news.html" class="news-naiyou">
                     <dl>
-                        <dt>2026/01/15</dt>
+                        <dt>2025/12/28</dt>
                         <dd>新商品販売のお知らせ
                         </dd>
                     </dl>
                 </a>
             </li>    
              <li class="news-item">
-                <a href="news_3.html" class="news-naiyou">
+                <a href="news.html" class="news-naiyou">
                     <dl>
-                        <dt>2026/12/25</dt>
-                        <dd>年末年始営業日のお知らせ
+                        <dt>2025/12/20</dt>
+                        <dd>今週のランキング発表
                         </dd>
                     </dl>
                 </a>
             </li> 
             <li class="news-item">
-                <a href="news_2.html" class="news-naiyou">
+                <a href="news.html" class="news-naiyou">
                     <dl>
-                        <dt>2025/12/18</dt>
-                        <dd>オンラインショップ販売開始のお知らせ
-                        </dd>
-                    </dl>
-                </a>
-            </li> 
-            <li class="news-item">
-                <a href="news_4.html" class="news-naiyou">
-                    <dl>
-                        <dt>2025/11/30</dt>
+                        <dt>2025/12/19</dt>
                         <dd>新商品販売のお知らせ
+                        </dd>
+                    </dl>
+                </a>
+            </li> 
+            <li class="news-item">
+                <a href="./news.html" class="news-naiyou">
+                    <dl>
+                        <dt>2025/12/15</dt>
+                        <dd>ポップアップストア開催のお知らせ
                         </dd>
                     </dl>
                 </a>
             </li>  
         </ul>
         <div class="more-btn-wrapper">
-        <a href="#" class="more-btn">もっと見る →</a>
+        <a href="./news.html" class="more-btn">もっと見る →</a>
         </div>
     </section>
 
-<!--グッズ-->
-    <section id="goods">
-        <div class="goods-title">
-        <img src="images/coffee.png" alt="icon" class="icon">
-        <h2>グッズ</h2>
+<!--オンラインショップ-->
+    <section id="onlineshop">
+        <img src="images/shop-logo.png" alt="オンラインショップのロゴ" class="logo3">
+        <p>今月の人気ランキングはこちらです</p>
+        <div class="ranking">
+        <div class="ranking-naiyou">
+            <h3 class="namber1">1位</h3>
+            <a href="#"><img src="images/hyoushi1.png" alt="表紙イメージ" class="hyoushi-image"></a>  
         </div>
-        <div class="goods-img-wrapper">
-        <img src="images/keyholder-all.jpg" alt="グッズイメージ" class="goods-img">
-        <img src="images/mag.jpg" alt="グッズイメージ" class="goods-img">
-        <img src="images/bag.jpg" alt="グッズイメージ" class="goods-img">
+        <div class="ranking-naiyou">
+            <h3 class="namber2">2位</h3>
+            <a href="#"><img src="images/hyoushi12.png" alt="表紙イメージ" class="hyoushi-image"></a>  
         </div>
-        <div class="more-btn-wrapper">
-        <a href="shop.html" class="more-btn">グッズを見る →</a>
+        <div class="ranking-naiyou">
+            <h3 class="namber3">3位</h3>
+            <a href="#"><img src="images/hyoushi3.png" alt="表紙イメージ" class="hyoushi-image"></a>  
+        </div>
+        </div>
+
+        <div class="more-btn2-wrapper">
+            <a href="./shop.html" class="more-btn2">ショップを見る →</a>
         </div>
     </section>
 
-<fotter id="fotter">
-    <img src="images/logo_color.png" alt="ロゴ" class="logo-fotter">
-    <div class="list-fotter">
-        <ul>
-            <li><a href="index.html">トップメニュー</a></li>
-            <li><a href="charactor.html">キャラクター紹介</a></li>
-            <li><a href="news.html">お知らせ</a></li>
-            <li><a href="shop.html">グッズ</a></li>
-            <li><a href="otoiawase.html">お問い合わせ</a></li>
-        </ul>
-    </div>
-    <div class="topbtn">
-        <a href="#top">TOP ↑</a>
-    </div>
-</fotter>
+<!--お問い合わせなど-->
+    <section class="bottom">
+        <div class="bottom-left">
+        <img src="images/logo.jpg" alt="ロゴ" class="logo1-bottom">
 
+        <div class="otoiawase">
+            <a href="./otoiawase.html" class="otoiawase-naiyou">お問い合わせはこちら →</a>
+        </div>
+        </div>
+        
+        <div class="bottom-list">
+            <ul>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="#intro">ショップについて</a></li>
+                <li><a href="news.html">お知らせ</a></li>
+                <li><a href="shop.html">オンラインショップ</a></li>
+                <li><a href="otoiawase.html">お問い合わせ</a></li>
+            </ul>
+        </div>
+</section>
 
-<script src="js/script.js"></script>
+<div>
+   <a href="./bokin.html"><img src="images/bokin-btn.png" alt="bokin-btn" class="bokin-btn-mainpage"></a>
+</div>
 
+<!--フッター--> 
+<footer class="footer">
+    <p>2025 PachiWork Inc. All Rights Reserved.</p>
+</footer>
+          
     </body>
 </html>

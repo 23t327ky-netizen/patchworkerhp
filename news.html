@@ -3,48 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel=stylesheet href="CSS/main.css">
+        <link rel=stylesheet href="CSS/news.css">
+        <title>ぱっちわーかー</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
-        <title>EaCherry</title>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
 
-    <body class="body">
 
-        <!--ニュース記事-->
-    <section id="news">
-        <div class="news-title">
-            <img src="images/tapioka.png" alt="tapioka" class="tapioka">
-            <h2>お知らせ</h2>
+<body class="body">
+    <header class="header">
+        <img src="images/logo.jpg" alt="ロゴ" class="logo1">
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="#intro">ショップについて</a></li>
+                <li><a href="news.html">お知らせ</a></li>
+                <li><a href="shop.html">オンラインショップ</a></li>
+                <li><a href="otoiawase.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="title-news-wrapper">
+        <img src="images/news-logo.png" class="title-news">
         </div>
         <ul class="news-list">
             <li class="news-item">
-                <a href="news_1.html" class="news-naiyou">
+                <a href="#" class="news-naiyou">
                     <dl>
-                        <dt>2026/01/15</dt>
+                        <dt>2025/12/28</dt>
                         <dd>新商品販売のお知らせ
                         </dd>
                     </dl>
                 </a>
             </li>    
              <li class="news-item">
-                <a href="news_3.html" class="news-naiyou">
+                <a href="#" class="news-naiyou">
                     <dl>
-                        <dt>2026/12/25</dt>
-                        <dd>年末年始営業日のお知らせ
-                        </dd>
-                    </dl>
-                </a>
-            </li> 
-            <li class="news-item">
-                <a href="news_4.html" class="news-naiyou">
-                    <dl>
-                        <dt>2025/12/18</dt>
-                        <dd>オンラインショップ販売開始のお知らせ
+                        <dt>2025/12/20</dt>
+                        <dd>今週のランキング発表
                         </dd>
                     </dl>
                 </a>
@@ -52,8 +54,17 @@
             <li class="news-item">
                 <a href="#" class="news-naiyou">
                     <dl>
-                        <dt>2025/11/30</dt>
+                        <dt>2025/12/19</dt>
                         <dd>新商品販売のお知らせ
+                        </dd>
+                    </dl>
+                </a>
+            </li> 
+            <li class="news-item">
+                <a href="#" class="news-naiyou">
+                    <dl>
+                        <dt>2025/12/15</dt>
+                        <dd>ポップアップストア開催のお知らせ
                         </dd>
                     </dl>
                 </a>
@@ -61,33 +72,57 @@
             <li class="news-item">
                 <a href="#" class="news-naiyou">
                     <dl>
-                        <dt>2025/11/28</dt>
-                        <dd>ホームページを開設しました！
+                        <dt>2025/11/30</dt>
+                        <dd>グッズの販売開始のお知らせ
                         </dd>
                     </dl>
                 </a>
-            </li> 
+            </li>  
+            <li class="news-item">
+                <a href="#" class="news-naiyou">
+                    <dl>
+                        <dt>2025/12/15</dt>
+                        <dd>ホームページを開設しました
+                        </dd>
+                    </dl>
+                </a>
+            </li>  
         </ul>
     </section>
 
 
-        <fotter id="fotter">
-        <img src="images/logo_color.png" alt="ロゴ" class="logo-fotter">
-        <div class="list-fotter">
+
+    <!--お問い合わせなど-->
+    <section class="bottom">
+        <div class="bottom-left">
+        <img src="images/logo.jpg" alt="ロゴ" class="logo1-bottom">
+
+        <div class="otoiawase">
+            <a href="#" class="otoiawase-naiyou">お問い合わせはこちら →</a>
+        </div>
+        </div>
+        
+        <div class="bottom-list">
             <ul>
-                <li>トップメニュー</li>
-                <li>キャラクター紹介</li>
-                <li>お知らせ</li>
-                <li>グッズ</li>
-                <li>お問い合わせ</li>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="#intro">ショップについて</a></li>
+                <li><a href="news.html">お知らせ</a></li>
+                <li><a href="shop.html">オンラインショップ</a></li>
+                <li><a href="otoiawase.html">お問い合わせ</a></li>
             </ul>
         </div>
-            <div class="topbtn">
-                <a href="#top">TOP ↑</a>
-            </div>
-        </fotter>
-    </body>
+</section>
+
+<!--フッター--> 
+    <footer class="footer">
+        <p>2025 PachiWork Inc. All Rights Reserved.</p>
+    </footer>
 
 
-<script src="js/script.js"></script>
+</body>
+
+
+
 </html>
+
+
