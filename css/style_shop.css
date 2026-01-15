@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.goods {
+    background-color: #ffffff;
+    background-image: radial-gradient(circle, #e56969 5px, transparent 5px), radial-gradient(circle, #cf4343 5px, transparent 5px);
+    background-position: 0 0, 20px 40px;
+    background-size: 40px 80px;
+    padding-bottom: 80px;
+}
+
+.goods h1 {
+    text-align: center;
+    padding: 30px 10px;
+    width: auto;
+    background-color: #ffffff;
+
+}
+
+.goods-all {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.goods-wrapper {
+    width: 300px;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.goods-wrapper h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.goods-img {
+    width: 230px;
+    height: 230px;
+}
+
+.kounyuu {
+    padding: 10px;
+    margin: 10px auto;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}

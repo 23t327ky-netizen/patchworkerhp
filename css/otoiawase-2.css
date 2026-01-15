@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.uketuke {
+    text-align: center;
+}
+
+.uketuke h1 {
+    margin: 80px 0px 30px 0px;
+}
+
+.uketuke-img {
+    width: 300px;
+}

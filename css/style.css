@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*ヘッダー*/
+
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 35px 5px;
+    display: flex;
+}
+
+#nav ul li {
+    display: block;
+    padding: 6px 20px;
+    border-right: 1px solid #a6a6a6;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav ul li a:hover {
+    color: #ffcece;
+}
+
+#logo-main {
+    width: 90px;
+    height: 90px;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+/*メインビジュアル*/
+.mainvisual {
+    width: 100%;
+    height: auto;
+}
+
+
+/*キャラクター紹介*/
+
+#charactor-intro {
+    padding: 20px auto;
+    margin: 0;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/eacherry_main.PNG);
+    background-size: 100%;
+    background-position: center;
+}
+
+#charactor-intro h1 {
+    padding: 90px 0px 20px 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#charactor-intro p {
+    text-align: center;
+    line-height: 2.5;
+}
+
+.video {
+    margin-top: 50px;
+    width: 700px;
+    border-radius: 30px;
+}
+
+.more-btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(255, 227, 227);
+    color: black;
+    display: block;
+    width: 180px;
+    margin: 50px auto;
+
+}
+
+.more-btn-wrapper {
+    margin: auto auto 100px auto;
+    text-align: center;
+}
+
+.more-btn:hover {
+    background-color: #fffcc5;
+}
+    
+/*お知らせ*/
+#news {
+    margin: 100px 0px;
+}
+
+.news-title {
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.news-title h2 {
+     margin-top: 25px;
+}
+
+.tapioka {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.logo2 {
+    width: 250px;
+    height: 120px;
+    margin: 0px 50px;
+}
+
+.news-list {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.news-list li {
+    width: 800px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: #a6a6a6 1px solid; 
+}
+
+.news-list dt {
+    float: left;
+    clear: left;
+    margin-right: 10px;
+}
+
+.news-list dl {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.news-naiyou {
+    text-decoration: none;
+    color: black;
+}
+
+.news-naiyou:hover {
+    color: #ffcece;
+}
+
+/*グッズ*/
+#goods {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.goods-title {
+    display: flex;
+    margin-left: 30px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.goods-title h2 {
+   margin: 30px 0px 0px 10px;
+}
+
+.goods-img {
+    width: 200px;
+    height: 200px;
+}
+
+.goods-img-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+/*フッター*/
+#fotter {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list-fotter {
+    padding-left: 40px;
+    width: 300px;
+}
+
+.list-fotter ul {
+    list-style-type: none;
+}
+
+.list-fotter li {
+    padding: 15px 20px;
+    border-bottom: #a6a6a6 1px solid;
+    font-size: 13px;
+}
+
+.list-fotter a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-fotter a:hover {
+    color: #ffcece;
+}
+
+
+.logo-fotter {
+    width: 200px;
+    height: 200px;
+    padding: 40px 0px 0px 90px;
+}
+
+
+
+.topbtn a {
+    padding: 50px 10px 10px 30px;
+    background-image: url(../images/cherry-icon1.png);
+    background-size: cover;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 3.5;
+}
+
+.topbtn a:hover {
+    background-image: url(../images/cherry-icon2.png);
+    padding: 50px 10px 10px 30px;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+

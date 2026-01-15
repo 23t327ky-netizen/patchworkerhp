@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.back-btn-wrapper {
+    background-color: antiquewhite;
+    width: 110px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+.back-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.back-btn-wrapper:hover {
+    background-color: rgb(241, 162, 175);
+}
+
+
+.news-syousai {
+    height: 900px;
+    width: auto;
+    text-align: center;
+    background-image: url(../images/news_back.png);
+    background-size: cover;
+}
+
+.news-syousai2 {
+    height: 700px;
+    width: auto;
+    text-align: center;
+    background-image: url(../images/news_back2.png);
+    background-size: cover;
+}
+
+.news-syousai p {
+    line-height: 2;
+    margin-top: 40px;
+}
+
+.news-syousai h1 {
+    padding: 30px 0px;
+}
+
+.news_pic {
+    width: 250px;
+    margin: 20px;
+}

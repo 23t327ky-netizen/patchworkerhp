@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*キャラクタープロフィール*/
+#charactor-profile{
+    padding: 20px 0px 50px 0px;
+}
+
+.pagetitle {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image dl {
+    margin: 50px 0px 0px 50px;
+}
+
+.profile-list {
+    margin-bottom: 20px;
+}
+
+.profile-list dd {
+    margin: 10px 0px 0px 0px;
+}
+
+.profile-list dt {
+    font-size: 18px;
+}
+
+.galally h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#charactor-1 {
+    height: 400px;
+    width: 400px;  
+}
+
+#charactor-1-2 {
+    height: 400px;
+    width: 400px;  
+}
+
+.charactor-2 {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/*JavaScript2*/
+.gallaly {
+    max-width: 500px;
+    margin: auto;
+}
+
+.main-image img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.charactor-2-all {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.charactor-2-all img {
+    width: 130px;
+    height: auto;
+    transition: 0.2s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.charactor-2-all img:hover {
+    opacity: 1;
+}
